@@ -268,6 +268,8 @@ Disco Externo 750GB 2.5" USB 3.0 Elements Negro;750;89990;119.9866
 
 The first line shows the cheapest GB (not necesarily the cheapest buy).
 
+### The Promise
+
 And now, the live command with *curl* and its real output:
 
 ```bash
@@ -319,5 +321,12 @@ Disco Externo Cloud 2TB Time Capsule WiFi para Red Inalambrica;2048;279990;136.7
 Disco Externo 1TB 2.5"  My Passport Wireless;1024;153190;149.6
 ```
 
+### Limitations
+
+This is a one-liner, an optimistic, quick and dirty way to do something. A lot of thing can break it:
+
+* Any change in the web page structure, elements and/or tags used
+* The way the capacity is displayed (without a space between the number and the unit)
+* A new unit (MB? PB?)
 
 
