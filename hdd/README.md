@@ -87,7 +87,7 @@ cat page.html | awk '/class="nombre" itemprop="name"/'
 ```
 We have the product name and the HDD capacity. We could have used *sed* to extract the content of the *span* element but there's a fun way to do it in *awk*, the *match* function. Acording to the [GNU Manual Page](https://www.gnu.org/software/gawk/manual/html_node/String-Functions.html) *match* will search a string for a regular expression and return the position of the occurence. If a third parameter is provided, it will also fill that array with the matched portion of the string or the parenthesized matching subexpressions.
 
-So we should use *match* with a regular expression to extract what's inside the *span* element. And what regular expression could extract that? Start with the end of the opening tag ```>``` followed by whatever is not the beggining of the closing tag ```[^>]*``` and finish with the beggining of the closing tag ```>```.
+So we should use *match* with a regular expression to extract what's inside the *span* element. And what regular expression could extract that? Start with the end of the opening tag ```>``` followed by whatever is not the beggining of the closing tag ```[^>]*``` and finish with the beggining of the closing tag ```>```, with parenthesis for the sake of extraction.
 
 The next attempt was something like this:
 
@@ -103,5 +103,72 @@ Disco Externo Antigolpes 2TB 2,5" USB 3.0 Azul
 Disco Externo 4TB 2.5" USB 3.0 Portable Expansi&oacute;n 			           
 [...]
 ```
+
+Now, to extract the capacity, let's use *match* again, but this time with a regular expression representing a number followed by a unit (GB or TB).
+
+```bash
+cat page.html | awk '/class="nombre" itemprop="name"/{match($0, />([^<]*)</, f); product=f[1]; match(product, /([0-9]+[GT]B)/, f);tmpcap=f[1]; print tmpcap}'
+
+750GB			           
+1TB		           
+1TB			           
+1TB
+3TB  			           
+2TB			           
+4TB 			           
+[...]
+```
+
+If we want to compare, and avoid decimals for now, we should convert capacity to GB. So we need to check for the unit to set a factor (to later multiply number times factor):
+
+
+```bash
+cat page.html | awk '/class="nombre" itemprop="name"/{match($0, />([^<]*)</, f); product=f[1]; match(product, /([0-9]+[GT]B)/, f);tmpcap=f[1]; if(tmpcap ~ /TB/){factor=1024;}else{factor = 1;} print factor;}'
+
+1			           
+1024		           
+1024			           
+1024
+1024  			           
+1024			           
+1024 			           
+[...]
+```
+
+Now, to extract the number, we use *match* again, but this time the parenthesis in the regular expression will only capture the number and not the unit.
+
+
+```bash
+cat page.html | awk '/class="nombre" itemprop="name"/{match($0, />([^<]*)</, f); product=f[1]; match(product, /([0-9]+[GT]B)/, f);tmpcap=f[1]; if(tmpcap ~ /TB/){factor=1024;}else{factor = 1;} match(tmpcap, /([0-9]+)[GT]B/, f); print f[1];}'
+
+750			           
+1		           
+1			           
+1
+3  			           
+2			           
+4 			           
+[...]
+```
+
+Now we calculate the capacity:
+
+```bash
+cat page.html | awk '/class="nombre" itemprop="name"/{match($0, />([^<]*)</, f); product=f[1]; match(product, /([0-9]+[GT]B)/, f);tmpcap=f[1]; if(tmpcap ~ /TB/){factor=1024;}else{factor = 1;} match(tmpcap, /([0-9]+)[GT]B/, f); capacity=f[1]*factor; print capacity;}'
+
+750			           
+1024		           
+1024			           
+1024
+3072  			           
+2048			           
+4096 			           
+[...]
+```
+
+
+
+
+
 
 
