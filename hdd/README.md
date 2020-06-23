@@ -61,7 +61,7 @@ One of the more simple ways is to load the page in a modern browser, find the da
 
 ### Extracting the data
 
-So far I could user *curl* to get the web page in HTML format:
+So far I could use *curl* to get the web page in HTML format:
 
 ```
 curl -s "https://www.pcfactory.cl/discos-externos?categoria=422&papa=706"
