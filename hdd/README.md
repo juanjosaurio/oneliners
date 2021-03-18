@@ -329,4 +329,7 @@ This is a one-liner, an optimistic, quick and dirty way to do something. A lot o
 * The way the capacity is displayed (without a space between the number and the unit)
 * A new unit (MB? PB?)
 
+### Update
+
+As of today, March 17th 2021, the one-liner still works :-)
 
