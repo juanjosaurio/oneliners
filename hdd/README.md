@@ -1,6 +1,6 @@
 # HDD
 
-Getting HDDs price list sorted by $/GB
+Getting HDDs price list sorted by $/TB
 
 ## The Motivation
 
