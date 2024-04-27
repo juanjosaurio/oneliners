@@ -360,7 +360,7 @@ Tarjeta de Expansión Xbox Series X | S 1TB;1;249690;249690
 
 ### Limitations
 
-This is a one-liner, an optimistic, quick and dirty way to do something. A lot of thing can break it:
+This is a one-liner, an optimistic, quick and dirty way to do something. A lot of things can break it:
 
 * Any change in the web page structure, elements and/or tags used
 * The way the capacity is displayed (without a space between the number and the unit)
