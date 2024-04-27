@@ -25,39 +25,94 @@ The specific URL for the External HDDs category is ```https://www.pcfactory.cl/d
 One of the more simple ways is to load the page in a modern browser, find the data visually, right-clik, Inspect Element and *voilà*. You get the general idea of the structure around the data.
 
 ```HTML
-	<div class="top-caluga">
-	        <div class="id-caluga"><span class="txt-id  force-select">24883</span></div>
-		<div class="status-caluga">
-			<span>+100 Unid.</span>
-		</div>
-	</div>
-	<div class="center-caluga">
-	    	<a data-tag="ir_producto" class="noselect" href="/producto/24883-wd-disco-externo-750gb-2-5-usb-3-0-elements-negro">
-			        <div class="center-titulo">
-				       	<span itemprop="brand" itemscope="" itemtype="http://schema.org/Brand">
-				       		<span itemprop="name" class="marca">WD  &reg; </span>
-				       	</span>
-			             <span class="nombre" itemprop="name">Disco Externo 750GB 2.5" USB 3.0 Elements Negro</span>			           
-			        </div>
-			        <div class="caluga-img">
-			        	
-			                <img data-id="caluga_foto" alt="Foto No Disponible" itemprop="image" src="/public/foto/24883/1_100.jpg?t=1549467628"></div>
-			        <div class="caluga-txt" itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">			        	
-			                <span class="txt">Precio Efectivo</span>
-			                <span class="txt-precio"> $       36.990</span>
-			                
-			                	<meta itemprop="price" content="36990.0000"><meta itemprop="priceCurrency" content="CLP"></div>
-		    </a>
-	    </div>
-	    <div class="bot-caluga">
-		    			
-		    			<div class="comparador">
-		    				<input type="checkbox" id="comparador_24883" value="24883"><a style="cursor:default;">Comparar</a>
-		    			</div>
-	    </div>
+<div class="product " data-class="Caluga" id="caluga_42040">
+    <input type="hidden" id="data_mentalidad_web_42040"
+        value='[{"name":"Disco Externo 14TB 3.5\" USB 3.0 Elements Desktop","id":"42040","price":"329990","brand":"WD  \u00ae ","category":"Discos Externos","variant":"","quantity":1,"position":42}]'>
+
+    <div class="product__heading" itemprop="brand" itemscope="" itemtype="http://schema.org/Brand">
+        <a class="product-ab-link" data-tag="ir_producto"
+            href="/producto/42040-wd-disco-externo-14tb-3-5-usb-3-0-elements-desktop" id="42040"></a>
+
+        <div class="card-title color-dark" itemprop="name">WD &reg; </div>
+        <p class="link color-primary-1 product__category-title">Discos Externos</p>
+    </div>
+
+    <div class="p-relative">
+        <a class="product-ab-link" data-tag="ir_producto"
+            href="/producto/42040-wd-disco-externo-14tb-3-5-usb-3-0-elements-desktop" id="42040"></a>
+        <div class="price color-dark-2  product__card-title" itemprop="name">Disco Externo 14TB 3.5" USB 3.0 Elements
+            Desktop</div>
+    </div>
+
+    <div class="product__units">
+        <a class="product-ab-link" data-tag="ir_producto"
+            href="/producto/42040-wd-disco-externo-14tb-3-5-usb-3-0-elements-desktop" id="42040"></a>
+
+        <div class="p-relative">
+            <p class="link color-dark"><strong>ID</strong> <span>42040</span></p>
+            <button class="product-ab-link copy-id copy-id-42040" data-clipboard-text="42040"
+                data-link="/producto/42040-wd-disco-externo-14tb-3-5-usb-3-0-elements-desktop"></button>
+        </div>
+
+        <p class="link--sm color-gray-1">8 Unid.</p>
+    </div>
+
+    <div class="product__image">
+        <a class="product-ab-link" data-tag="ir_producto"
+            href="/producto/42040-wd-disco-externo-14tb-3-5-usb-3-0-elements-desktop" id="42040"></a>
+        <img alt="Foto No Disponible" itemprop="image"
+            src="https://www.pcfactory.cl/public/foto/42040/1_200.jpg?t=1712343871825">
+    </div>
+
+    <div class="product__price">
+
+        <div class="product__price-texts" itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
+            <a class="product-ab-link" data-tag="ir_producto"
+                href="/producto/42040-wd-disco-externo-14tb-3-5-usb-3-0-elements-desktop" id="42040"></a>
+            <div class="title-md color-primary-1 alineado-porcentaje-precio"><span
+                    class="porcentaje-card-precio">-29%</span> $ 329.990</div>
+            <div class="title-sm color-gray-2 texto-tachado">$ 464.090</div>
+            <div class="price color-dark">Precio Oferta Efectivo</div>
+            <meta itemprop="price" content="$ 329.990">
+            <meta itemprop="priceCurrency" content="CLP">
+        </div>
+
+        <div>
+            <button class="button-no-decoration button-pointer-e-none"
+                onmousedown="try { rrApi.addToBasket(42040) } catch(e) {}" id="addtocart_42040_1">
+                <img src="/public/dist/images/design/add_cart.svg">
+            </button>
+        </div>
+    </div>
+    <div class="product__price " style="gap:0 !important; justify-content:initial !important;">
+        <div>
+            <img src="/public/dist/images/design/icono_tarjeta_credito.svg" style="width:30px;">
+        </div>
+        <div>
+            <p class="price">Hasta 24 cuotas<strong> sin inter&eacute;s*</strong></p>
+        </div>
+    </div>
+    <div class="product__footer">
+        <input type="hidden" id="json_producto_compara_42040" data-type="json"
+            value='{"marca":"WD  \u00ae ","categoria":"Discos Externos","nombre":"Disco Externo 14TB 3.5\" USB 3.0 Elements Desktop","precio_titulo":"Precio Oferta Efectivo","precio":"$ 329.990","foto":"https:\/\/www.pcfactory.cl\/public\/foto\/42040\/1_200.jpg?t=1712343871825","url":"\/producto\/42040-wd-disco-externo-14tb-3-5-usb-3-0-elements-desktop"}'>
+        <button class="button-icon button-icon--small" id="comparador_42040" value="42040">
+            <img src="/public/dist/images/design/compare.svg">
+            <span class="color-gray-1">Comparar</span>
+        </button>
+    </div>
+
+    <div class="product__add-to-cart">
+        <div class="button-bg-icon button-bg-icon--bordered">
+            <button id="addtocart">A&ntilde;adir al carro</button>
+            <img src="/public/dist/images/design/add_cart.svg">
+        </div>
+    </div>
+
+    <input data-id="producto_familia" type="hidden">
+</div>
 ```
 
-* In the following steps some data will be simulated, redacted or modified to suit the explanation. At then end there will be a faithful and honest execution of the command and its full output.
+* In the following steps some data will be simulated, redacted or modified to suit the explanation. At the end there will be a faithful and honest execution of the command and its full output.
 
 ### Extracting the data
 
@@ -75,36 +130,36 @@ cat page.html
 
 #### Product Name
 
-Given what Inspect Element showed, the first attribute to extract was the name of the product, located in a *span* element with tags ```class="nombre" itemprop="name"```. So the first attempt was something like this:
+Given what Inspect Element showed, the first attribute to extract was the name of the product, located in a *div* element with tags ```class="price color-dark-2  product__card-title" itemprop="name"```. So the first attempt was something like this:
 
 ```bash
-cat page.html | awk '/class="nombre" itemprop="name"/'
+cat page.html | awk '/class="price color-dark-2  product__card-title" itemprop="name"/'
 
-			             <span class="nombre" itemprop="name">Disco Externo 750GB 2.5" USB 3.0 Elements Negro</span>			           
-			             <span class="nombre" itemprop="name">Disco Externo 1TB 2.5" USB 3.0 Elements Negro</span>			           
-			             <span class="nombre" itemprop="name">Disco Externo 1TB 2.5" USB 3.0 Canvio Basics Black A3</span>			           
-			             <span class="nombre" itemprop="name">Disco Externo 1TB 2,5" USB 3.0 Portable Expansion Drive Negro</span>
-			             <span class="nombre" itemprop="name">Disco Externo 3TB 2.5" USB 3.0 Elements  </span>			           
-			             <span class="nombre" itemprop="name">Disco Externo Antigolpes 2TB 2,5" USB 3.0 Azul</span>			           
-			             <span class="nombre" itemprop="name">Disco Externo 4TB 2.5" USB 3.0 Portable Expansi&oacute;n </span>			           
+          <div class="price color-dark-2  product__card-title" itemprop="name">Disco Externo 1TB 2.5" USB 3.0 Elements Negro</div>
+          <div class="price color-dark-2  product__card-title" itemprop="name">Disco Externo 1TB 2.5" USB 3.0 Basic</div>
+          <div class="price color-dark-2  product__card-title" itemprop="name">Disco Externo 1TB 2.5" USB 3.0 Canvio Basics Black A5</div>
+          <div class="price color-dark-2  product__card-title" itemprop="name">Disco Externo 1TB 2.5" USB 3.0 Canvio Advance v10 Green</div>
+          <div class="price color-dark-2  product__card-title" itemprop="name">Disco Externo 1TB 2.5" USB 3.0 My Passport Respaldo Autom&aacute;tico Negro</div>
+          <div class="price color-dark-2  product__card-title" itemprop="name">Disco Externo 2TB 2.5" USB 3.0 Elements Negro </div>
+			           
 [...]
 ```
-We have the product name and the HDD capacity. We could have used *sed* to extract the content of the *span* element but there's a fun way to do it in *awk*, the *match* function. Acording to the [GNU Manual Page](https://www.gnu.org/software/gawk/manual/html_node/String-Functions.html) *match* will search a string for a regular expression and return the position of the occurence. If a third parameter is provided, it will also fill that array with the matched portion of the string or the parenthesized matching subexpressions.
+We have the product name and the HDD capacity. We could have used *sed* to extract the content of the *div* element but there's a fun way to do it in *awk*, the *match* function. Acording to the [GNU Manual Page](https://www.gnu.org/software/gawk/manual/html_node/String-Functions.html) *match* will search a string for a regular expression and return the position of the occurence. If a third parameter is provided, it will also fill that array with the matched portion of the string or the parenthesized matching subexpressions.
 
-So we should use *match* with a regular expression to extract what's inside the *span* element. And what regular expression could extract that? Start with the end of the opening tag ```>``` followed by whatever is not the beggining of the closing tag ```[^>]*``` and finish with the beggining of the closing tag ```>```, with parenthesis for the sake of extraction.
+So we should use *match* with a regular expression to extract what's inside the *div* element. And what regular expression could extract that? Start with the end of the opening tag ```>``` followed by whatever is not the beggining of the closing tag ```[^>]*``` and finish with the beggining of the closing tag ```>```, with parenthesis for the sake of extraction.
 
 The next attempt was something like this:
 
 ```bash
 cat page.html | awk '/class="nombre" itemprop="name"/{match($0, />([^<]*)</, f); product=f[1]; print product;}'
 
-Disco Externo 750GB 2.5" USB 3.0 Elements Negro			           
-Disco Externo 1TB 2.5" USB 3.0 Elements Negro			           
-Disco Externo 1TB 2.5" USB 3.0 Canvio Basics Black A3			           
-Disco Externo 1TB 2,5" USB 3.0 Portable Expansion Drive Negro
-Disco Externo 3TB 2.5" USB 3.0 Elements  			           
-Disco Externo Antigolpes 2TB 2,5" USB 3.0 Azul			           
-Disco Externo 4TB 2.5" USB 3.0 Portable Expansi&oacute;n 			           
+Disco Externo 1TB 2.5" USB 3.0 Elements Negro
+Disco Externo 1TB 2.5" USB 3.0 Basic
+Disco Externo 1TB 2.5" USB 3.0 Canvio Basics Black A5
+Disco Externo 1TB 2.5" USB 3.0 Canvio Advance v10 Green
+Disco Externo 1TB 2.5" USB 3.0 My Passport Respaldo Autom&aacute;tico Negro
+Disco Externo 2TB 2.5" USB 3.0 Elements Negro
+Disco Externo Antigolpes 1TB 2,5" USB 3.0 Azul		           
 [...]
 ```
 
@@ -113,79 +168,55 @@ Disco Externo 4TB 2.5" USB 3.0 Portable Expansi&oacute;n
 Now, to extract the capacity, let's use *match* again, but this time with a regular expression representing a number followed by a unit (GB or TB).
 
 ```bash
-cat page.html | awk '/class="nombre" itemprop="name"/{match($0, />([^<]*)</, f); product=f[1]; match(product, /([0-9]+[GT]B)/, f);tmpcap=f[1]; print tmpcap}'
+cat page.html | awk '/class="nombre" itemprop="name"/{match($0, />([^<]*)</, f); product=f[1]; match(product, /([0-9]+)TB/, f);capacity=f[1]; print capacity}'
 
-750GB			           
-1TB		           
-1TB			           
-1TB
-3TB  			           
-2TB			           
-4TB 			           
-[...]
-```
-
-If we want to compare, and avoid decimals for now, we should convert capacity to GB. So we need to check for the unit to set a factor (to later multiply number times factor):
-
-
-```bash
-cat page.html | awk '/class="nombre" itemprop="name"/{match($0, />([^<]*)</, f); product=f[1]; match(product, /([0-9]+[GT]B)/, f);tmpcap=f[1]; if(tmpcap ~ /TB/){factor=1024;}else{factor = 1;} print factor;}'
-
-1			           
-1024		           
-1024			           
-1024
-1024  			           
-1024			           
-1024 			           
-[...]
-```
-
-Now, to extract the number, we use *match* again, but this time the parenthesis in the regular expression will only capture the number and not the unit.
-
-
-```bash
-cat page.html | awk '/class="nombre" itemprop="name"/{match($0, />([^<]*)</, f); product=f[1]; match(product, /([0-9]+[GT]B)/, f);tmpcap=f[1]; if(tmpcap ~ /TB/){factor=1024;}else{factor = 1;} match(tmpcap, /([0-9]+)[GT]B/, f); print f[1];}'
-
-750			           
-1		           
-1			           
 1
-3  			           
-2			           
-4 			           
+1
+1
+1
+1
+2
+1
+2
+2
+2
+1 			           
 [...]
 ```
 
-Now we calculate the capacity:
-
-```bash
-cat page.html | awk '/class="nombre" itemprop="name"/{match($0, />([^<]*)</, f); product=f[1]; match(product, /([0-9]+[GT]B)/, f);tmpcap=f[1]; if(tmpcap ~ /TB/){factor=1024;}else{factor = 1;} match(tmpcap, /([0-9]+)[GT]B/, f); capacity=f[1]*factor; print capacity;}'
-
-750			           
-1024		           
-1024			           
-1024
-3072  			           
-2048			           
-4096 			           
-[...]
-```
+In the previous version of this page and script, there was a section devoted to normalize the capacity in GB, but now there are no products being offered with its capacity expressed in GB.
 
 #### Price
 
-Now we must extract the price, which is located in a *meta* element inside a *span* element, with tags *itemprop* always equals to *price* (this will be the pattern to look for). For the extraction, *match* to the rescue (again). This time with a regular expression to match with the tags but to only extract the integer part of the price.
+Now we must extract the price, which is located in a *meta* element inside a *div* element, with tags *itemprop* always equals to *price* (this will be the pattern to look for) and the actual price is the value for tag *content*. For the extraction, *match* to the rescue (again). This time with a regular expression to match with the tags but to only extract the integer part of the price.
 
 ```bash
-cat page.html | awk '/meta itemprop="price"/{match($0, /price" content="([0-9]+)\./, f);price=f[1]; print price}'
+cat page.html | awk '/meta itemprop="price"/{match($0, /price" content="\$ ([0-9\.]+)"/, f);price=f[1]; print price}'
 
-89990
-93990
-94990
-97990
-110990
-113990
-119990 			           
+49.990
+56.690
+58.190
+59.390
+59.990
+66.990
+73.290
+75.990		           
+[...]
+```
+
+To remove the dot, we must add a simple substitution using the *sub* function.
+
+```bash
+cat page.html | awk '/meta itemprop="price"/{match($0, /price" content="\$ ([0-9\.]+)"/, f);price=f[1];sub(/\./, "", price); print price}'
+
+49990
+56690
+58190
+59390
+59990
+66990
+73290
+75990
 [...]
 ```
 
@@ -194,131 +225,137 @@ cat page.html | awk '/meta itemprop="price"/{match($0, /price" content="([0-9]+)
 Now we integrate both *awk* pattern+action into a single script:
 
 ```bash
-cat page.html | awk '/class="nombre" itemprop="name"/{match($0, />([^<]*)</, f); product=f[1]; match(product, /([0-9]+[GT]B)/, f);tmpcap=f[1]; if(tmpcap ~ /TB/){factor=1024;}else{factor = 1;} match(tmpcap, /([0-9]+)[GT]B/, f); capacity=f[1]*factor;} /meta itemprop="price"/{match($0, /price" content="([0-9]+)\./, f);price=f[1]; print product";"capacity";"price";"price/capacity;}'
+cat page.html | awk '/class="price color-dark-2  product__card-title" itemprop="name"/{match($0, />([^<]*)</, f); product=f[1]; match(product, /([0-9]+)TB/, f);capacity=f[1];}/meta itemprop="price"/{match($0, /price" content="\$ ([0-9\.]+)"/, f);price=f[1];sub(/\./, "", price); print product";"capacity";"price";"price/capacity;}'
 
-Disco Externo 750GB 2.5" USB 3.0 Elements Negro;750;89990;119.9866
-Disco Externo 1TB 2.5" USB 3.0 Elements Negro;1024;93990;91.7871
-Disco Externo 1TB 2.5" USB 3.0 Canvio Basics Black A3;1024;94990;92.7636
-Disco Externo 1TB 2,5" USB 3.0 Portable Expansion Drive Negro;1024;97990;95.6933
-Disco Externo 3TB 2.5" USB 3.0 Elements;3072;110990;36.1295
-Disco Externo Antigolpes 2TB 2,5" USB 3.0 Azul;2048;113990;55.6591
-Disco Externo 4TB 2.5" USB 3.0 Portable Expansi&oacute;n;4096;119990;29.2944
+Disco Externo 1TB 2.5" USB 3.0 Elements Negro;1;49990;49990
+Disco Externo 1TB 2.5" USB 3.0 Basic;1;56690;56690
+Disco Externo 1TB 2.5" USB 3.0 Canvio Basics Black A5;1;58190;58190
+Disco Externo 1TB 2.5" USB 3.0 Canvio Advance v10 Green;1;59390;59390
+Disco Externo 1TB 2.5" USB 3.0 My Passport Respaldo Autom&aacute;tico Negro;1;59990;59990
+Disco Externo 2TB 2.5" USB 3.0 Elements Negro ;2;66990;33495
+Disco Externo Antigolpes 1TB 2,5" USB 3.0 Azul;1;73290;73290
+Disco Externo 2TB 2.5" USB 3.0 Basic;2;75990;37995
 [...]
 ```
 
 And here we find a problem. The arbitrary field separator used here was ```;``` and according to *awk* not all the lines have the same number of fields:
 
 ```bash
-cat page.html | awk '/class="nombre" itemprop="name"/{match($0, />([^<]*)</, f); product=f[1]; match(product, /([0-9]+[GT]B)/, f);tmpcap=f[1]; if(tmpcap ~ /TB/){factor=1024;}else{factor = 1;} match(tmpcap, /([0-9]+)[GT]B/, f); capacity=f[1]*factor;} /meta itemprop="price"/{match($0, /price" content="([0-9]+)\./, f);price=f[1]; print product";"capacity";"price";"price/capacity;}' | awk -F';' '{print NF}'
+cat page.html | awk '/class="price color-dark-2  product__card-title" itemprop="name"/{match($0, />([^<]*)</, f); product=f[1]; match(product, /([0-9]+)TB/, f);capacity=f[1];}/meta itemprop="price"/{match($0, /price" content="\$ ([0-9\.]+)"/, f);price=f[1];sub(/\./, "", price); print product";"capacity";"price";"price/capacity;}' | awk -F';' '{print NF}'
 
 4
 4
 4
 4
-4
-4
 5
+4
+4
+4
+4
 [...]
 ```
 
 The product description contains HTML encoded text (the last line shown), so we must find some way to decode it. I had *perl* at hand so I installed *perl-HTML-Parser* and this is how it went:
 
 ```bash
-cat page.html | awk '/class="nombre" itemprop="name"/{match($0, />([^<]*)</, f); product=f[1]; match(product, /([0-9]+[GT]B)/, f);tmpcap=f[1]; if(tmpcap ~ /TB/){factor=1024;}else{factor = 1;} match(tmpcap, /([0-9]+)[GT]B/, f); capacity=f[1]*factor;} /meta itemprop="price"/{match($0, /price" content="([0-9]+)\./, f);price=f[1]; print product";"capacity";"price";"price/capacity;}' | perl -MHTML::Entities -pe 'decode_entities($_);'
+cat page.html | awk '/class="price color-dark-2  product__card-title" itemprop="name"/{match($0, />([^<]*)</, f); product=f[1]; match(product, /([0-9]+)TB/, f);capacity=f[1];}/meta itemprop="price"/{match($0, /price" content="\$ ([0-9\.]+)"/, f);price=f[1];sub(/\./, "", price); print product";"capacity";"price";"price/capacity;}' | perl -MHTML::Entities -pe 'decode_entities($_);'
 
-Disco Externo 750GB 2.5" USB 3.0 Elements Negro;750;89990;119.9866
-Disco Externo 1TB 2.5" USB 3.0 Elements Negro;1024;93990;91.7871
-Disco Externo 1TB 2.5" USB 3.0 Canvio Basics Black A3;1024;94990;92.7636
-Disco Externo 1TB 2,5" USB 3.0 Portable Expansion Drive Negro;1024;97990;95.6933
-Disco Externo 3TB 2.5" USB 3.0 Elements;3072;110990;36.1295
-Disco Externo Antigolpes 2TB 2,5" USB 3.0 Azul;2048;113990;55.6591
-Disco Externo 4TB 2.5" USB 3.0 Portable Expansi?n;4096;119990;29.2944
+Disco Externo 1TB 2.5" USB 3.0 Elements Negro;1;49990;49990
+Disco Externo 1TB 2.5" USB 3.0 Basic;1;56690;56690
+Disco Externo 1TB 2.5" USB 3.0 Canvio Basics Black A5;1;58190;58190
+Disco Externo 1TB 2.5" USB 3.0 Canvio Advance v10 Green;1;59390;59390
+Disco Externo 1TB 2.5" USB 3.0 My Passport Respaldo Autom▒tico Negro;1;59990;59990
+Disco Externo 2TB 2.5" USB 3.0 Elements Negro ;2;66990;33495
+Disco Externo Antigolpes 1TB 2,5" USB 3.0 Azul;1;73290;73290
+Disco Externo 2TB 2.5" USB 3.0 Basic;2;75990;37995
 [...]
 ```
 
 It still wasn't showing the right character, so we must use *iconv*:
 
 ```bash
-cat page.html | awk '/class="nombre" itemprop="name"/{match($0, />([^<]*)</, f); product=f[1]; match(product, /([0-9]+[GT]B)/, f);tmpcap=f[1]; if(tmpcap ~ /TB/){factor=1024;}else{factor = 1;} match(tmpcap, /([0-9]+)[GT]B/, f); capacity=f[1]*factor;} /meta itemprop="price"/{match($0, /price" content="([0-9]+)\./, f);price=f[1]; print product";"capacity";"price";"price/capacity;}' | perl -MHTML::Entities -pe 'decode_entities($_);' | iconv -f iso-8859-1 -t utf-8
+cat page.html | awk '/class="price color-dark-2  product__card-title" itemprop="name"/{match($0, />([^<]*)</, f); product=f[1]; match(product, /([0-9]+)TB/, f);capacity=f[1];}/meta itemprop="price"/{match($0, /price" content="\$ ([0-9\.]+)"/, f);price=f[1];sub(/\./, "", price); print product";"capacity";"price";"price/capacity;}'' | perl -MHTML::Entities -pe 'decode_entities($_);' | iconv -f iso-8859-1 -t utf-8
 
-Disco Externo 750GB 2.5" USB 3.0 Elements Negro;750;89990;119.9866
-Disco Externo 1TB 2.5" USB 3.0 Elements Negro;1024;93990;91.7871
-Disco Externo 1TB 2.5" USB 3.0 Canvio Basics Black A3;1024;94990;92.7636
-Disco Externo 1TB 2,5" USB 3.0 Portable Expansion Drive Negro;1024;97990;95.6933
-Disco Externo 3TB 2.5" USB 3.0 Elements;3072;110990;36.1295
-Disco Externo Antigolpes 2TB 2,5" USB 3.0 Azul;2048;113990;55.6591
-Disco Externo 4TB 2.5" USB 3.0 Portable Expansión;4096;119990;29.2944
+Disco Externo 1TB 2.5" USB 3.0 Elements Negro;1;49990;49990
+Disco Externo 1TB 2.5" USB 3.0 Basic;1;56690;56690
+Disco Externo 1TB 2.5" USB 3.0 Canvio Basics Black A5;1;58190;58190
+Disco Externo 1TB 2.5" USB 3.0 Canvio Advance v10 Green;1;59390;59390
+Disco Externo 1TB 2.5" USB 3.0 My Passport Respaldo Automático Negro;1;59990;59990
+Disco Externo 2TB 2.5" USB 3.0 Elements Negro ;2;66990;33495
+Disco Externo Antigolpes 1TB 2,5" USB 3.0 Azul;1;73290;73290
+Disco Externo 2TB 2.5" USB 3.0 Basic;2;75990;37995
 [...]
 ```
 
 Finally it's showing the information the way I want. Now we must sort it to find the cheapest GB with *sort*:
 
 ```bash
-cat page.html | awk '/class="nombre" itemprop="name"/{match($0, />([^<]*)</, f); product=f[1]; match(product, /([0-9]+[GT]B)/, f);tmpcap=f[1]; if(tmpcap ~ /TB/){factor=1024;}else{factor = 1;} match(tmpcap, /([0-9]+)[GT]B/, f); capacity=f[1]*factor;} /meta itemprop="price"/{match($0, /price" content="([0-9]+)\./, f);price=f[1]; print product";"capacity";"price";"price/capacity;}' | perl -MHTML::Entities -pe 'decode_entities($_);' | iconv -f iso-8859-1 -t utf-8 | sort -r -t ';' -k 4n
+cat page.html | awk '/class="price color-dark-2  product__card-title" itemprop="name"/{match($0, />([^<]*)</, f); product=f[1]; match(product, /([0-9]+)TB/, f);capacity=f[1];}/meta itemprop="price"/{match($0, /price" content="\$ ([0-9\.]+)"/, f);price=f[1];sub(/\./, "", price); print product";"capacity";"price";"price/capacity;}' | perl -MHTML::Entities -pe 'decode_entities($_);' | iconv -f iso-8859-1 -t utf-8 | sort -r -t ';' -k 4n
 
-Disco Externo 4TB 2.5" USB 3.0 Portable Expansión;4096;119990;29.2944
-Disco Externo 3TB 2.5" USB 3.0 Elements;3072;110990;36.1295
-Disco Externo Antigolpes 2TB 2,5" USB 3.0 Azul;2048;113990;55.6591
-Disco Externo 1TB 2.5" USB 3.0 Elements Negro;1024;93990;91.7871
-Disco Externo 1TB 2.5" USB 3.0 Canvio Basics Black A3;1024;94990;92.7636
-Disco Externo 1TB 2,5" USB 3.0 Portable Expansion Drive Negro;1024;97990;95.6933
-Disco Externo 750GB 2.5" USB 3.0 Elements Negro;750;89990;119.9866
+Disco Externo 14TB 3.5" USB 3.0 Elements Desktop;14;329990;23570.7
+Disco Externo 12TB 3.5" USB 3.0 Desktop Expansion.;12;305990;25499.2
+Disco Externo 8TB 3.5" USB 3.0 My Book Desktop Respaldo Automático;8;209990;26248.8
+Disco Externo 6TB 3.5" USB 3.0 My Book Desktop Respaldo Automático;6;164990;27498.3
+Disco Externo 5TB WD_Black P10 Game Drive;5;144990;28998
+Disco Externo 4TB 2.5" USB 3.0 Canvio Advance v10 Green;4;118290;29572.5
+Disco Externo 4TB Canvio Basics Black A5;4;118690;29672.5
+Disco Externo 4TB 2.5" USB3.0 Elements Negro;4;119990;29997.5
+Disco Externo 5TB 2.5" USB 3.0 My Passport Respaldo Automático Negro;5;149990;29998
+Disco Externo 5TB 2.5" USB 3.0 Elements Negro;5;151990;30398
 [...]
 ```
 
-The first line shows the cheapest GB (not necesarily the cheapest buy).
+The first line shows the cheapest TB (not necesarily the cheapest buy).
 
 ### The Promise
 
 And now, the live command with *curl* and its real output:
 
 ```bash
-curl -s "https://www.pcfactory.cl/discos-externos?categoria=422&papa=706" | awk '/class="nombre" itemprop="name"/{match($0, />([^<]*)</, f); product=f[1]; match(product, /([0-9]+[GT]B)/, f);tmpcap=f[1]; if(tmpcap ~ /TB/){factor=1024;}else{factor = 1;} match(tmpcap, /([0-9]+)[GT]B/, f); capacity=f[1]*factor;} /meta itemprop="price"/{match($0, /price" content="([0-9]+)\./, f);price=f[1]; print product";"capacity";"price";"price/capacity;}' | perl -MHTML::Entities -pe 'decode_entities($_);' | iconv -f iso-8859-1 -t utf-8 | sort -r -t ';' -k 4n
+curl -s "https://www.pcfactory.cl/discos-externos?categoria=422&papa=706" | awk '/class="price color-dark-2  product__card-title" itemprop="name"/{match($0, />([^<]*)</, f); product=f[1]; match(product, /([0-9]+)TB/, f);capacity=f[1];}/meta itemprop="price"/{match($0, /price" content="\$ ([0-9\.]+)"/, f);price=f[1];sub(/\./, "", price); print product";"capacity";"price";"price/capacity;}' | perl -MHTML::Entities -pe 'decode_entities($_);' | iconv -f iso-8859-1 -t utf-8 | sort -r -t ';' -k 4n
 
-Disco Externo 4TB 2.5" USB 3.0 Portable Expansión ;4096;79990;19.5288
-Disco Externo 4TB 2.5" USB3.0 Elements Negro;4096;94990;23.1909
-Disco Externo 4TB Canvio Basics Black;4096;97990;23.9233
-Disco Externo 3TB 2.5" USB 3.0 Elements  ;3072;79990;26.0384
-Disco Externo 2TB 2,5" USB 3.0 Portable Expansion Drive Negro;2048;54990;26.8506
-Disco Externo 2TB 2.5" USB 3.0 Elements Negro ;2048;54990;26.8506
-Disco Externo 4TB Canvio Advance Black;4096;110990;27.0972
-Disco Externo 8TB 3.5" USB 3.0 Back Up Plus Hub Desktop Software de Respaldo;8192;237490;28.9905
-Disco Externo 3TB 2.5" USB 3.0 My Passport Respaldo Automático Negro ;3072;89990;29.2936
-Disco Externo 4TB para Mac 2.5" USB 3.0 My Passport Respaldo Automático;4096;119990;29.2944
-Disco Externo 4TB 2.5" USB 3.0 My Passport Respaldo Automático;4096;123490;30.1489
-Disco Externo 3TB 3,5" USB 3.0 Expansion Desktop Negro;3072;93990;30.5957
-Disco Externo 6TB 3.5" USB 3.0 My Book Desktop Respaldo Automático;6144;189990;30.9229
-Disco Externo 8TB 3.5" USB 3.0 My Book Desktop Respaldo Automático;8192;256490;31.3098
-Disco Externo 2TB 2.5" USB 3.0 My Passport Respaldo Automático Negro;2048;64990;31.7334
-Disco Externo 2TB 2.5" USB 3.0 My Passport Respaldo Automático Azul ;2048;64990;31.7334
-Disco Externo 2TB 2.5" USB 3.0 Canvio Basics Black A3;2048;66490;32.4658
-My Passport 4TB para Mac USB 3.0;4096;142490;34.7876
-Disco Externo 4TB My Cloud Home Almacenamiento Online;4096;149990;36.6187
-Disco Externo 3TB 2.5" USB 3.0 (c/ adaptador USB C) Canvio Premium Plateado P2 - Respalda con Seguridad;3072;113990;37.1061
-Disco Externo 1TB 2.5" USB 3.0 Elements Negro;1024;39990;39.0527
-Disco Externo 1TB 2.5" USB 3.0 Canvio Basics Black A3;1024;39990;39.0527
-Disco Externo Antigolpes 2TB 2,5" USB 3.0 Azul;2048;79990;39.0576
-Disco Externo 6TB My Cloud Home Almacenamiento Online;6144;239990;39.0609
-Disco Externo 2TB 2.5" USB 3.0 (c/ adaptador USB C) Canvio Premium Plateado P2 - Respalda con Seguridad;2048;85490;41.7432
-Disco Externo 2TB 2.5" USB 3.0 My Passport Ultra Metal Negro-Gris;2048;89990;43.9404
-Disco Externo 2TB 2.5" USB 3.0 My Passport Ultra Metal Blanco-Gold;2048;89990;43.9404
-Disco Externo 1TB 2,5" USB 3.0 Portable Expansion Drive Negro;1024;45990;44.9121
-Disco Externo 1TB 2.5" USB 3.0 Advance V9 Rojo - Respalda, SIncroniza y Comparte;1024;45990;44.9121
-Disco Externo 1TB 2.5" USB 3.0 Advance V9 Negro - Respalda, SIncroniza y Comparte;1024;45990;44.9121
-Disco Externo 1TB 2.5" USB 3.0 Advance V9 Azul - Respalda, SIncroniza y Comparte;1024;45990;44.9121
-Disco Externo Antigolpes 1TB 2,5" USB 3.0 Azul;1024;49990;48.8184
-Disco Externo 1TB 2.5" USB 3.0 My Passport Respaldo Automático Negro;1024;49990;48.8184
-Disco Externo 1TB 2.5" USB 3.0 My Passport Respaldo Automático Blanco;1024;49990;48.8184
-Disco Externo 750GB 2.5" USB 3.0 Elements Negro;750;36990;49.32
-Disco Externo 1TB 2.5" Para Mac USB 3.0 My Passport Respaldo Automático Negro;1024;56990;55.6543
-Disco Externo 1TB para Mac 2.5" USB 3.0 My Passport Respaldo Automático;1024;59990;58.584
-Disco Externo 1TB 2.5" USB 3.0 My Passport Ultra Metal Negro-Gris;1024;69990;68.3496
-Disco Externo 1TB 2.5" USB 3.0 My Passport Ultra Metal Blanco-Gold;1024;69990;68.3496
-Disco Externo 2TB My Cloud Home Almacenamiento Online;2048;139990;68.3545
-Disco Externo 1TB 2.5" USB 3.0 Rugged Triple Interface Antigolpes;1024;89990;87.8809
-Disco Externo 500GB Wireless ;500;64990;129.98
-Disco Externo Cloud 2TB Time Capsule WiFi para Red Inalambrica;2048;279990;136.714
-Disco Externo 1TB 2.5"  My Passport Wireless;1024;153190;149.6
+Disco Externo 14TB 3.5" USB 3.0 Elements Desktop;14;329990;23570.7
+Disco Externo 12TB 3.5" USB 3.0 Desktop Expansion.;12;305990;25499.2
+Disco Externo 8TB 3.5" USB 3.0 My Book Desktop Respaldo Automático;8;209990;26248.8
+Disco Externo 6TB 3.5" USB 3.0 My Book Desktop Respaldo Automático;6;164990;27498.3
+Disco Externo 5TB WD_Black P10 Game Drive;5;144990;28998
+Disco Externo 4TB 2.5" USB 3.0 Canvio Advance v10 Green;4;118290;29572.5
+Disco Externo 4TB Canvio Basics Black A5;4;118690;29672.5
+Disco Externo 4TB 2.5" USB3.0 Elements Negro;4;119990;29997.5
+Disco Externo 5TB 2.5" USB 3.0 My Passport Respaldo Automático Negro;5;149990;29998
+Disco Externo 5TB 2.5" USB 3.0 Elements Negro;5;151990;30398
+Disco Externo 4TB 2.5" USB 3.0 My Passport Respaldo Automático;4;124990;31247.5
+Disco Externo 4TB 2.5" USB 3.0 Basic;4;128190;32047.5
+Disco Externo 4TB 2.5" Canvio Flex;4;131490;32872.5
+Disco Externo 2TB 2.5" USB 3.0 Elements Negro ;2;66990;33495
+Disco Externo 5TB 2.5" USB 3.0 Firecuda Gaming;5;169990;33998
+Disco Externo 4TB WD_Black P10 Game Drive;4;139990;34997.5
+Disco Externo 3TB 2.5" USB 3.0 Elements  ;3;106090;35363.3
+Disco Externo 2TB 2.5" USB 3.0 Basic;2;75990;37995
+Disco Externo Antigolpes 4TB 2.5" USB 3.0;4;153090;38272.5
+Disco Externo 2TB 2.5" USB 3.0 Canvio Basics Black A5;2;76990;38495
+Disco Externo 2TB 2.5" USB 3.0 Canvio Advance v10 Green;2;77590;38795
+Disco Externo 2TB WD_Black P10 Game Drive;2;84990;42495
+Disco Externo 2TB 2.5" para PS4;2;89990;44995
+Disco Externo 2TB 2.5" Canvio Gaming;2;89990;44995
+Disco Externo 2TB 2.5" Canvio Flex ;2;92990;46495
+Disco Externo Antigolpes 2TB 2,5" USB 3.0 Azul;2;94890;47445
+Disco Externo 4TB G-DRIVE ArmorATD USB 3.2;4;198790;49697.5
+Disco Externo 1TB 2.5" USB 3.0 Elements Negro;1;49990;49990
+Disco Externo 2TB 2.5" USB 3.0 Firecuda Gaming;2;104990;52495
+Disco Externo 6TB G-DRIVE Enterprise Class USB 3.2;6;319790;53298.3
+Disco Externo 2TB 2.5" WD_Black P10 Game Drive Edición Call of Duty;2;112090;56045
+Disco Externo 1TB 2.5" USB 3.0 Basic;1;56690;56690
+Disco Externo 1TB 2.5" USB 3.0 Canvio Basics Black A5;1;58190;58190
+Disco Externo 1TB 2.5" USB 3.0 Canvio Advance v10 Green;1;59390;59390
+Disco Externo 1TB 2.5" USB 3.0 My Passport Respaldo Automático Negro;1;59990;59990
+Disco Externo 2TB 2.5" USB 3.0 Rugged Mini;2;122390;61195
+Disco Externo 2TB 2.5" Starwars Edition Baby Yoda;2;127490;63745
+Disco Externo 2TB G-DRIVE ArmorATD USB 3.2;2;145290;72645
+Disco Externo Antigolpes 1TB 2,5" USB 3.0 Azul;1;73290;73290
+Disco Externo Portable 1TB 2.5" USB-C;1;82990;82990
+Disco Externo 1TB 2.5" USB 3.0 Rugged Mini;1;95890;95890
+Tarjeta de Expansión Xbox Series X | S 1TB;1;249690;249690
 ```
 
 ### Limitations
@@ -331,5 +368,6 @@ This is a one-liner, an optimistic, quick and dirty way to do something. A lot o
 
 ### Update
 
-As of today, March 17th 2021, the one-liner still works :-)
+~~As of today, March 17th 2021, the one-liner still works :-)~~
+Updated on April 27th 2024 to reflect changes on the web page and capacities only expressed on TB.
 
